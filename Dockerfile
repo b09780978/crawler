@@ -14,4 +14,10 @@ RUN python3 -m pip install -U pip\
 && pip3 install requests \
 && pip3 install requests-html
 
+RUN git clone https://github.com/b09780978/crawler.git \
+&& cd crawler \
+&& python3 install.py \
+&& cd .. \
+&& rm -rf crawler
+
 CMD ["/sbin/my_init"]
