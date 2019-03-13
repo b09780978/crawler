@@ -19,5 +19,3 @@ RUN git clone https://github.com/b09780978/crawler.git \
 && python3 install.py \
 && cd .. \
 && rm -rf crawler
-
-CMD ["/sbin/my_init"]
