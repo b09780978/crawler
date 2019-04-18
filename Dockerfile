@@ -12,7 +12,7 @@ RUN apt-get update \
 RUN python3 -m pip install -U pip\
 && pip3 install pipenv \
 && pip3 install requests \
-&& pip3 install beautifulsoup4 \
+&& pip3 install pyquery \
 && pip3 install requests-html
 
 RUN git clone https://github.com/b09780978/crawler.git \
