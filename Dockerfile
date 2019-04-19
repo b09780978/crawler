@@ -16,11 +16,11 @@ RUN python3 -m pip install -U pip\
 && pip3 install requests-html \
 && pip3 install aiohttp
 
-RUN git clone --depth https://github.com/b09780978/crawler.git \
+RUN git clone --depth 1 https://github.com/b09780978/crawler.git \
 && cd crawler \
 && python3 install.py \
 && cd .. \
 && rm -rf crawler
 
 # Add my python utils package
-RUN git clone --depth https://github.com/b09780978/utils.git
+RUN git clone --depth 1 https://github.com/b09780978/utils.git
