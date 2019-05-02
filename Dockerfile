@@ -6,7 +6,7 @@ WORKDIR /root
 # Update and Install chromium-browser
 RUN apt-get update \
 && apt-get upgrade -y \
-&& apt-get install --no-cache -y chromium-browser
+&& apt-get install -y chromium-browser
 
 # Update python and install crawler package
 RUN python3 -m pip install -U pip\
