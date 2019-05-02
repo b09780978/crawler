@@ -5,8 +5,8 @@ WORKDIR /root
 
 # Update and Install chromium-browser
 RUN apk update \
-&& apk add git g++ \
-&& apk add libxslt libxslt-dev libxml2 libxml2-dev \
+&& apk add --no-cache git g++ \
+&& apk add --no-cache libxslt libxslt-dev libxml2 libxml2-dev \
 && apk upgrade
 
 # Update python and install crawler package
