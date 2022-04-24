@@ -3,8 +3,7 @@ My Dockerfile for crawler
 
 ## packages
 - requests
-- requests-html
-- idle
+- ipython
 
 ## Usage
     docker pull b09780978/crawler
@@ -14,6 +13,3 @@ My Dockerfile for crawler
 ## Deploy
     docker pull b09780978/crawler:deploy
     docker container run -it -v {YOUR_CODE_DIR}:{DOCKER_DIR} --name crawler b09780978/crawler
-    
-## Note
-    Deploy version use alpine(python3.6) and not install chromium and requests-html
