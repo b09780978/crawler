@@ -1,5 +1,5 @@
 # crawler
-My Dockerfile for crawler
+My Dockerfile for crawler on arch linux
 
 ## packages
 - requests
