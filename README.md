@@ -3,8 +3,12 @@ My Dockerfile for crawler
 
 ## packages
 - requests
-- requests-html
-- idle
+- aiohttp
+- beautifulsoup4
+- lxml
+- pyquery
+- node_vm2(for execute javascript)
+- ipython
 
 ## Usage
     docker pull b09780978/crawler
