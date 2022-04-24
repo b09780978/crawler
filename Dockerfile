@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.10-alpine
 MAINTAINER faker <b09780978@gmail.com>
 
 WORKDIR /root
@@ -12,7 +12,8 @@ RUN apk update \
 
 # Update python and install crawler package
 RUN python3 -m pip install -U pip \
-&& pip3 install pipenv \
+&& pip3 install beautifulsoup4 \
+&& pip3 install lxml \
 && pip3 install ipython \
 && pip3 install requests \
 && pip3 install pyquery \
