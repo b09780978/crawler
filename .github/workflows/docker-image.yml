@@ -2,7 +2,7 @@ name: Push Docker Image
 
 on:
   push:
-    branches: [ master, arch, deploy ]
+    branches: [ master ]
     
 jobs:
   push_to_registry:
