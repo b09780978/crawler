@@ -4,6 +4,7 @@ My Dockerfile for crawler
 ## packages
 - requests
 - ipython
+- node_vm2
 
 ## Usage
     docker pull b09780978/crawler
