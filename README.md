@@ -2,7 +2,8 @@
 My Dockerfile for crawler
 
 # language
-python3
+- python3
+- python2
 
 ## packages
 - requests
