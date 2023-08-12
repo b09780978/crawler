@@ -27,6 +27,7 @@ RUN pacman -Syyu --needed base --noconfirm \
 
 # install python environment
 RUN pacman -S --noconfirm python python-pip \
+&& pacman -S --noconfirm python-curl-cffi \
 && pip install -U pip \
 && pip install ipython \
 && pip install requests \
