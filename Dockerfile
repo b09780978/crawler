@@ -28,7 +28,14 @@ RUN pacman -Syyu --needed base --noconfirm \
 # install python environment
 RUN pacman -S --noconfirm python python-pip \
 && pip install -U pip \
-&& pip install requests pyquery node_vm2 beautifulsoup4 lxml ipython aiohttp
+&& pip install ipython \
+&& pip install requests \
+&& pip install pyquery \
+&& pip install node_vm2 \
+&& pip install aiohttp cchardet aiodns ujson \
+&& pip install beautifulsoup4 \
+&& pip install curl_cffi \
+&& pip install lxml
 
 RUN chsh -s /bin/zsh \
 && ln ~/.vimrc ~/.config/nvim/init.vim \
