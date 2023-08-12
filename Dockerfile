@@ -5,7 +5,7 @@ WORKDIR /root
 
 # Update and Install git node.js
 RUN apk update \
-&& apk add --no-cache git g++ curl \
+&& apk add --no-cache git gcc g++ curl \
 && apk add --no-cache libxslt libxslt-dev libxml2 libxml2-dev \
 && apk add --no-cache nodejs npm \
 && apk upgrade
