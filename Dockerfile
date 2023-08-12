@@ -12,8 +12,9 @@ RUN python3 -m pip install -U pip\
 && pip3 install requests \
 && pip3 install pyquery \
 && pip3 install node_vm2 \
-&& pip3 install aiohttp \
+&& pip3 install aiohttp cchardet aiodns ujson \
 && pip3 install beautifulsoup4 \
+&& pip3 install curl_cffi
 && pip3 install lxml
 
 # Clean cache
