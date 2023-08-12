@@ -3,16 +3,20 @@ My Dockerfile for crawler
 
 # language
 - python3
-- python2
+- node.js
 
 ## packages
 - requests
-- aiohttp
+- aiohttp (async)
 - beautifulsoup4
 - lxml
 - pyquery
 - node_vm2(for execute javascript)
 - ipython
+ - cchardet
+ - aiodns
+ - curl_cffi (bypass anti-bot through fingerprint)
+ - ujson
 
 ## Usage
     docker pull b09780978/crawler
