@@ -35,7 +35,6 @@ RUN pacman -S --noconfirm python python-pip \
 && pip install node_vm2 \
 && pip install aiohttp cchardet aiodns ujson \
 && pip install beautifulsoup4 \
-&& pip install curl_cffi \
 && pip install lxml
 
 RUN chsh -s /bin/zsh \
