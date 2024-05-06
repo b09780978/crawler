@@ -10,7 +10,7 @@ RUN apt update \
 # Update python and install crawler package
 RUN ~/venv/bin/python3 -m pip install -U pip\
 && ~/venv/bin/pip3 install node_vm2 \
-&& ~/venv/bin/pip3 install cchardet ujson \
+&& ~/venv/bin/pip3 install faust-cchardet ujson \
 && ~/venv/bin/pip3 install curl_cffi \
 && ~/venv/bin/pip3 install lxml
 
