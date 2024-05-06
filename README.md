@@ -7,14 +7,12 @@ My Dockerfile for crawler
 
 ## packages
 - requests
-- aiohttp (async)
 - beautifulsoup4
 - lxml
 - pyquery
 - node_vm2(for execute javascript)
 - ipython
  - cchardet
- - aiodns
  - curl_cffi (bypass anti-bot through fingerprint)
  - ujson
 
