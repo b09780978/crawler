@@ -12,9 +12,10 @@ My Dockerfile for crawler
 - pyquery
 - node_vm2(for execute javascript)
 - ipython
- - cchardet
- - curl_cffi (bypass anti-bot through fingerprint)
- - ujson
+- cchardet
+- curl_cffi (bypass anti-bot through fingerprint)
+- ujson
+- SQLAlchemy
 
 ## Usage
     docker pull b09780978/crawler
