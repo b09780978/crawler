@@ -20,6 +20,7 @@ RUN python3 -m pip install -U pip \
 && pip3 install pyquery beautifulsoup4 \
 && pip3 install node_vm2 \
 && pip3 install fastapi[all] uvicorn[standard] gunicorn \
-&& pip3 install httpx[http2,cli,socks,brotli]
+&& pip3 install httpx[http2,cli,socks,brotli] \
+&& pip3 install SQLAlchemy hatch
 
 CMD ["/bin/sh"]
