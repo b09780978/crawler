@@ -6,11 +6,11 @@ My Dockerfile for crawler
 - node.js
 
 ## packages
-- requests
+- requests httpx
 - beautifulsoup4
 - lxml
 - pyquery
-- node_vm2(for execute javascript)
+- node_vm2 (for execute javascript)
 - ipython
 - cchardet
 - curl_cffi (bypass anti-bot through fingerprint)
