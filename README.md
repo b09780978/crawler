@@ -15,6 +15,7 @@ My Dockerfile for crawler
 - cchardet
 - curl_cffi (bypass anti-bot through fingerprint)
 - ujson
+- numpy
 - SQLAlchemy
 
 ## Usage
