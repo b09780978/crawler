@@ -14,7 +14,7 @@ RUN apk update \
 # Update python and install crawler package
 RUN python3 -m pip install -U pip \
 && pip3 install beautifulsoup4 \
-&& pip3 install lxml ujson faust-cchardet \
+&& pip3 install lxml ujson faust-cchardet lzstring \
 && pip3 install ipython \
 && pip3 install requests \
 && pip3 install pyquery beautifulsoup4 \
