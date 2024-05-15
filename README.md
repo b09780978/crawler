@@ -9,6 +9,7 @@ My Dockerfile for crawler
 - requests httpx
 - beautifulsoup4
 - lxml
+- lzstring
 - pyquery
 - node_vm2 (for execute javascript)
 - ipython
