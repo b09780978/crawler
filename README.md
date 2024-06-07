@@ -14,8 +14,7 @@ My Dockerfile for crawler
 - ipython
 - cchardet
 - ujson
-- numpy
-- SQLAlchemy
+- numpy SQLAlchemy
 
 ## Usage
     docker pull b09780978/crawler
