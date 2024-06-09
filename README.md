@@ -20,6 +20,7 @@ My Dockerfile for crawler and pyright lsp support
     docker pull b09780978/crawler
     docker container run -idt -v {YOUR_CODE_DIR}:{DOCKER_DIR} --name crawler b09780978/crawler
     docker container exec -it script /dev/null -c tmux
+    docker run --rm -it b09780978/crawler
 
 ## Deploy
     docker pull b09780978/crawler:deploy
