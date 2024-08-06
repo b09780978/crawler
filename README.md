@@ -11,7 +11,7 @@ My Dockerfile for crawler and pyright lsp support
 - beautifulsoup4 pyquery lxml
 - lzstring
 - node_vm2 (for execute javascript)
-- ipython
+- ipython jupyter
 - cchardet
 - ujson
 - numpy SQLAlchemy
