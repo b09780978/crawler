@@ -3,8 +3,8 @@ My Dockerfile for crawler
 
 ## packages
 - requests
-- requests-html
-- idle
+- httpx
+- jupyter
 
 ## Usage
     docker pull b09780978/crawler
