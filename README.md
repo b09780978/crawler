@@ -15,6 +15,7 @@ My Dockerfile for crawler and pyright lsp support
 - cchardet
 - ujson
 - numpy SQLAlchemy
+- uv
 
 ## Usage
     docker pull b09780978/crawler
