@@ -1,5 +1,5 @@
 # crawler
-My Dockerfile for crawler and pyright lsp support
+My Dockerfile for crawler and ruff lsp support
 
 # language
 - python3
