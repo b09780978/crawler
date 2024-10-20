@@ -10,7 +10,7 @@ My Dockerfile for crawler and ruff lsp support
 - curl_cffi (bypass anti-bot through fingerprint)
 - beautifulsoup4 pyquery lxml
 - lzstring
-- node_vm2 (for execute javascript)
+- node_vm2 (for execute javascript code)
 - ipython jupyter
 - cchardet
 - ujson
